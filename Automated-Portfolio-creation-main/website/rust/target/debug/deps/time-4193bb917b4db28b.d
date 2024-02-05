@@ -1,0 +1,11 @@
+C:\Users\LucaS\Desktop\programmieren_code\html\Automated-Portfolio-creation\website\rust\target\debug\deps\time-4193bb917b4db28b.rmeta: C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\lib.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\display.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\duration.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\parse.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\sys.rs
+
+C:\Users\LucaS\Desktop\programmieren_code\html\Automated-Portfolio-creation\website\rust\target\debug\deps\libtime-4193bb917b4db28b.rlib: C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\lib.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\display.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\duration.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\parse.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\sys.rs
+
+C:\Users\LucaS\Desktop\programmieren_code\html\Automated-Portfolio-creation\website\rust\target\debug\deps\time-4193bb917b4db28b.d: C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\lib.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\display.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\duration.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\parse.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\sys.rs
+
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\lib.rs:
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\display.rs:
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\duration.rs:
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\parse.rs:
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\time-0.1.45\src\sys.rs:

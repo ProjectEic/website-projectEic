@@ -1,0 +1,11 @@
+C:\Users\LucaS\Desktop\programmieren_code\html\Automated-Portfolio-creation\website\rust\target\debug\deps\bzip2-6c32b192714f48c3.rmeta: C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\lib.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\mem.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\bufread.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\read.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\write.rs
+
+C:\Users\LucaS\Desktop\programmieren_code\html\Automated-Portfolio-creation\website\rust\target\debug\deps\libbzip2-6c32b192714f48c3.rlib: C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\lib.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\mem.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\bufread.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\read.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\write.rs
+
+C:\Users\LucaS\Desktop\programmieren_code\html\Automated-Portfolio-creation\website\rust\target\debug\deps\bzip2-6c32b192714f48c3.d: C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\lib.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\mem.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\bufread.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\read.rs C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\write.rs
+
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\lib.rs:
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\mem.rs:
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\bufread.rs:
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\read.rs:
+C:\Users\LucaS\.cargo\registry\src\index.crates.io-6f17d22bba15001f\bzip2-0.4.4\src\write.rs:

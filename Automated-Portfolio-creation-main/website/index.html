@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Made by Luca Schirmer -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="">
+    
+    <link rel="stylesheet" href="main.css">
+    <title>{title}</title>
+</head>
+<body style="overflow-x: hidden;">
+    <header class="topHeader">
+        <nav class="topNav">
+            <div class="LogoContainer">
+                <img src="Logo.png" alt="Logo">
+            </div>
+            <ul class="navList">
+                <li class="ListItem">
+                    <a href="#">Home</a>     
+                </li>
+                <li class="ListItem">
+                    <a href="#Portfolio">Portfolio</a>
+                </li>
+                <li class="ListItem">
+                    <a href="#Services">Services</a>
+                </li>
+                <li class="ListItem">
+                    <a href="#Contact">Contact</a>
+                </li>
+                <li class="ListItem">
+                    <a href="#Clients">Clients</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="topNavMobile">
+            <ul class="indexUlMobile navList">
+                <div class="LogoContainer">
+                    <img src="Logo.png" alt="Logo">
+                </div>
+                <li class="ListItem">
+                    <a href="#">Home</a>     
+                </li>
+                
+    
+                <div class="burger">
+                    <img class="toggleImageBurger" src="img/cancelXpng.png" alt="close Sidebar">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </ul>
+            <ul class="sideUL">
+                <li class="ListItem" id="firstChildSideUl">
+                    <a href="#Portfolio">Portfolio</a>
+                </li>
+                <li class="ListItem">
+                    <a href="#Services">Services</a>
+                </li>
+                <li class="ListItem">
+                    <a href="#Clients">Clients</a>
+                </li>
+                <li class="ListItem">
+                    <a href="#Contact">Contact</a>
+                </li>            
+            </ul>  
+        </nav>
+        
+
+    </header>
+    <main class="indexMain">
+        <article class="articleAbout" id="articleAbout">
+            <div class="aboutFoto fadeIn">
+                <img src="" alt="aboutFoto">
+            </div>
+            <div class="aboutName fadeIn">
+                {aboutName}
+            </div>
+            <div class="aboutText fadeIn">
+                {aboutText}
+            </div>      
+        </article>
+        <article class="articlePortfolio" id="Portfolio">
+            <!-- dynamic -->
+
+        </article>   
+        <article class="articleServices" id="Services">
+
+        </article>     
+        <article class="articleClients" id="Clients">
+
+        </article>     
+    </main>
+    <footer class="articleContact" id="Contact">
+        
+    </footer>
+</body>
+
+<script src="scripts/main.js"></script>
+<script src="scripts/responsive.js"></script>
+<script defer src="scripts/intersectionObserver.js"></script>
+
+</html>
