@@ -1,57 +1,51 @@
 {
     "general": {
-      "aboutText": "Meet Luca and Jakob, a dynamic duo of professional programmers who share a passion for crafting efficient, fast, and intuitive software solutions. Their collaborative journey began with a shared vision of creating innovative digital experiences that enhance users' lives.\n\nHaving successfully navigated several projects together, Luca and Jakob have proven their prowess in the world of programming. Their dedication and expertise recently earned them the prestigious second place in a challenging software competition.\n\nOne of their notable achievements is the creation of a social media app and multiple websites for their school. Currently, the duo is immersed in multiple projects, each reflecting their innovative approach to problem-solving. One standout project involves the development of a vocabulary learning app that employs gamification techniques to make the process more engaging and enjoyable. By blending education with entertainment, Luca and Jakob aim to revolutionize the way people acquire new language skills.\n\nTheir collaborative process is marked by a seamless synergy, with Luca's attention to detail complementing Jakob's creative problem-solving. Together, they form a dynamic team that thrives on challenges and consistently delivers high-quality software solutions.\n\nLuca and Jakob's commitment to excellence extends beyond the technical aspects of programming. They understand the importance of user experience and continuously strive to create software that not only performs flawlessly but also provides a delightful and intuitive interaction for users.",
-      "aboutFoto": "liszt.jpg",
-      "logo": "cap.jpg",
-      "title": "projectEic",
-      "email": "projecteic.contact@gmail.com",
-      "phoneNumber": "0123456789"
+        "aboutText": "Lernen Sie Luca und Jakob kennen, ein dynamisches Duo professioneller Programmierer, die eine Leidenschaft für die Entwicklung effizienter, schneller und intuitiver Softwarelösungen teilen. Ihre gemeinsame Reise begann mit der Vision, innovative digitale Erlebnisse zu schaffen, die das Leben der Nutzer verbessern.\n\nNach erfolgreicher Durchführung mehrerer Projekte haben Luca und Jakob ihre Fähigkeiten in der Programmierwelt unter Beweis gestellt. Ihre Hingabe und ihr Fachwissen brachten ihnen kürzlich den prestigeträchtigen zweiten Platz in einem herausfordernden Softwarewettbewerb ein.\n\nZu ihren bemerkenswerten Leistungen gehört die Erstellung einer Social-Media-App und mehrerer Websites für ihre Schule. Derzeit sind die beiden in mehrere Projekte vertieft, die alle ihren innovativen Ansatz zur Problemlösung widerspiegeln. Ein herausragendes Projekt ist die Entwicklung einer Vokabellern-App, die Gamification-Techniken einsetzt, um den Lernprozess ansprechender und unterhaltsamer zu gestalten. Durch die Kombination von Bildung und Unterhaltung wollen Luca und Jakob die Art und Weise revolutionieren, wie Menschen neue Sprachkenntnisse erwerben.\n\nIhr kollaborativer Prozess ist durch eine nahtlose Synergie gekennzeichnet, bei der Lucas Liebe zum Detail Jakobs kreatives Problemlösen ergänzt. Zusammen bilden sie ein dynamisches Team, das Herausforderungen liebt und stets hochwertige Softwarelösungen liefert.\n\nLuca und Jakobs Engagement für Exzellenz geht über die technischen Aspekte der Programmierung hinaus. Sie verstehen die Bedeutung der Benutzererfahrung und bemühen sich kontinuierlich, Software zu erstellen, die nicht nur einwandfrei funktioniert, sondern auch eine angenehme und intuitive Interaktion für die Nutzer bietet.",
+        "aboutFoto": "liszt.jpg",
+        "logo": "cap.jpg",
+        "title": "SchirmerRinke Software",
+        "email": "projecteic.contact@gmail.com",
+        "phoneNumber": "0123456789"
     },
     "colors": {
-      "mainColor": "#2992c1",
-      "secondaryColor": "#406798",
-      "accentColor": "#93611c",
-      "backgroundColor": "#000000"
+        "mainColor": "#2992c1",
+        "secondaryColor": "#406798",
+        "accentColor": "#93611c",
+        "backgroundColor": "#000000"
     },
     "projects": {
-      "0": {
-        "title": "Grouping",
-        "text": "We collaborated with one of our friends on a project developed using Flutter. Our project, called Grouping, was designed to address the challenges of event management and improve the functionality of groups compared to other social media apps, such as WhatsApp. Due to the considerable expenses associated with maintaining an app and the costs of listing it on app stores, we decided to make it available exclusively as an open-source Docker version, which allows users to host it on their own. The app is available for iOS, Android, and Windows.",
-        "foto": "cap.jpg"
-      },
-      "1": {
-        "title": "PerformQuizz",
-        "text": "Our upcoming vocabulary app introduces a gamified learning experience for students. Designed with a playful approach, the app allows students to enhance their vocabulary skills while engaging in entertaining games. Making learning enjoyable, this innovative app aims to transform education into an interactive and rewarding experience. Stay tuned for an exciting way to learn and expand your vocabulary!",
-        "foto": "cap.jpg"
-      },
-      "2": {
-        "title": "School-Website of the St. Josef Gymnasium Dingelstädt",
-        "text": "We helped our school's digital transformation by developing a comprehensive school website integrated with a user-friendly CMS system. This system empowers teachers to effortlessly create news posts that provide insights into the daily life at our school. Throughout this project, we gained valuable experience in customer collaboration, fine-tuning the project to meet their specific requirements, and ensuring customer satisfaction through multiple feedback polls aimed at optimizing the website's functionality.",
-        "foto": "cap.jpg"
-      },
-      "3": {
-        "title": "A virtual school walkthrough ",
-        "text": "Amid the challenges posed by the Covid-19 pandemic, our former school found itself in need of an innovative solution to host its annual open day online. In collaboration with a dedicated group of friends, we started a project to create a website that offers a virtual walkthrough of the school, showcasing each subject area and various other aspects of the school environment. This first version was realized in 2021, and a year later, the website was redesigned by enhancing the website's overall look and feel. By 2023, we successfully integrated this virtual tour into the school's official website. My primary focus throughout this endeavor was on frontend development and design, ensuring that the online experience effectively represented the school's offerings and atmosphere.",
-        "foto": "cap.jpg"
-      }
+        "0": {
+            "title": "Grouping",
+            "text": "Wir haben mit einem unserer Freunde an einem Projekt gearbeitet, das mit Flutter entwickelt wurde. Unser Projekt, genannt Grouping, wurde entwickelt, um die Herausforderungen des Eventmanagements zu bewältigen und die Funktionalität von Gruppen im Vergleich zu anderen Social-Media-Apps wie WhatsApp zu verbessern. Aufgrund der erheblichen Kosten für die Wartung einer App und die Listung in App-Stores haben wir uns entschieden, sie ausschließlich als Open-Source-Docker-Version verfügbar zu machen, die Benutzer selbst hosten können. Die App ist für iOS, Android und Windows verfügbar.",
+            "foto": "cap.jpg"
+        },
+        "1": {
+            "title": "PerformQuizz",
+            "text": "Unsere kommende Vokabel-App bietet ein spielerisches Lernerlebnis für Schüler. Die App ermöglicht es den Schülern, ihre Vokabelkenntnisse durch unterhaltsame Spiele zu verbessern. Durch die Gestaltung des Lernens als unterhaltsames Erlebnis zielt diese innovative App darauf ab, Bildung in eine interaktive und lohnende Erfahrung zu verwandeln. Freuen Sie sich auf eine aufregende Möglichkeit, Ihren Wortschatz zu erweitern!",
+            "foto": "cap.jpg"
+        },
+        "2": {
+            "title": "Schul-Website des St. Josef Gymnasiums Dingelstädt",
+            "text": "Wir haben die digitale Transformation unserer Schule unterstützt, indem wir eine umfassende Schulwebsite mit einem benutzerfreundlichen CMS-System entwickelt haben. Dieses System ermöglicht es Lehrern, mühelos Nachrichtenbeiträge zu erstellen, die Einblicke in das tägliche Leben an unserer Schule geben. Während dieses Projekts haben wir wertvolle Erfahrungen in der Zusammenarbeit mit Kunden gesammelt, das Projekt an ihre spezifischen Anforderungen angepasst und durch mehrere Feedback-Umfragen die Funktionalität der Website optimiert.",
+            "foto": "cap.jpg"
+        },
+        "3": {
+            "title": "Ein virtueller Schulrundgang",
+            "text": "Angesichts der Herausforderungen durch die Covid-19-Pandemie benötigte unsere ehemalige Schule eine innovative Lösung, um ihren jährlichen Tag der offenen Tür online zu veranstalten. In Zusammenarbeit mit einer engagierten Gruppe von Freunden haben wir ein Projekt gestartet, um eine Website zu erstellen, die einen virtuellen Rundgang durch die Schule bietet und dabei jedes Fachgebiet und verschiedene andere Aspekte der Schulumgebung zeigt. Diese erste Version wurde 2021 realisiert, und ein Jahr später wurde die Website durch eine Verbesserung des Gesamtdesigns neu gestaltet. Bis 2023 haben wir diese virtuelle Tour erfolgreich in die offizielle Website der Schule integriert. Mein Hauptaugenmerk lag dabei auf der Frontend-Entwicklung und dem Design, um sicherzustellen, dass das Online-Erlebnis das Angebot und die Atmosphäre der Schule effektiv repräsentiert.",
+            "foto": "cap.jpg"
+        }
     },
     "services": {
-      "0": {
-        "title": "Create your dream website",
-        "text": "Where innovation meets aesthetics! Elevate your online presence with a website that seamlessly blends cutting-edge technology and captivating design. Dive into a world where learning meets play and personalized experiences await. From interactive modules to thought-provoking discussions, our service crafts a digital journey where the extraordinary becomes your norm. Welcome to a new era of online experiences – sell your dream website today and redefine your digital footprint!",
-        "foto": "fine-day-athem.jpg"
-      },
-      "1": {
-        "title": "Create your dream app",
-        "text": "Where innovation takes center stage! Elevate your brand with a customized mobile application that seamlessly merges cutting-edge technology and stunning design. Immerse users in a world of seamless functionality, engaging features, and personalized experiences. From interactive interfaces to user-friendly navigation, our service crafts a digital journey that stands out. Embrace a new era of mobile experiences – sell \"Your Dream App\" today and redefine the way users engage with your brand!",
-        "foto": "fine-day-athem.jpg"
-      }
-    },
-    "customers": {
-      "0": {
-        "title": "St. Josef Gymnasium Dingelstädt",
-        "foto": "cap.jpg"
-      }
+        "0": {
+            "title": "Erstellen Sie Ihre Traum-Website",
+            "text": "Wo Innovation auf Ästhetik trifft! Steigern Sie Ihre Online-Präsenz mit einer Website, die modernste Technologie und fesselndes Design nahtlos verbindet. Tauchen Sie ein in eine Welt, in der Lernen auf Spiel trifft und personalisierte Erlebnisse auf Sie warten. Von interaktiven Modulen bis hin zu anregenden Diskussionen gestaltet unser Service eine digitale Reise, bei der das Außergewöhnliche zur Norm wird. Willkommen in einer neuen Ära der Online-Erlebnisse – verkaufen Sie noch heute Ihre Traum-Website und definieren Sie Ihren digitalen Fußabdruck neu!",
+            "foto": "fine-day-athem.jpg"
+        },
+        "1": {
+            "title": "Erstellen Sie Ihre Traum-App",
+            "text": "Wo Innovation im Mittelpunkt steht! Steigern Sie Ihre Marke mit einer maßgeschneiderten mobilen Anwendung, die modernste Technologie und atemberaubendes Design nahtlos verbindet. Tauchen Sie die Benutzer in eine Welt nahtloser Funktionalität, ansprechender Funktionen und personalisierter Erlebnisse ein. Von interaktiven Schnittstellen bis hin zu benutzerfreundlicher Navigation gestaltet unser Service eine digitale Reise, die herausragt. Begrüßen Sie eine neue Ära mobiler Erlebnisse – verkaufen Sie noch heute \"Ihre Traum-App\" und definieren Sie die Art und Weise, wie Benutzer mit Ihrer Marke interagieren, neu!",
+            "foto": "fine-day-athem.jpg"
+        }
     },
     "socialMedia": {
       "linkedInURL": "https://de.linkedin.com/in/marlene-flucke-106037280",
