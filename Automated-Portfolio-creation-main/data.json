@@ -17,34 +17,34 @@
         "0": {
             "title": "Grouping",
             "text": "Wir haben mit einem unserer Freunde an einem Projekt gearbeitet, das mit Flutter entwickelt wurde. Unser Projekt, genannt Grouping, wurde entwickelt, um die Herausforderungen des Eventmanagements zu bewältigen und die Funktionalität von Gruppen im Vergleich zu anderen Social-Media-Apps wie WhatsApp zu verbessern. Aufgrund der erheblichen Kosten für die Wartung einer App und die Listung in App-Stores haben wir uns entschieden, sie ausschließlich als Open-Source-Docker-Version verfügbar zu machen, die Benutzer selbst hosten können. Die App ist für iOS, Android und Windows verfügbar.",
-            "foto": "cap.jpg"
+            "foto": "Grouping.png"
         },
         "1": {
             "title": "PerformQuizz",
             "text": "Unsere kommende Vokabel-App bietet ein spielerisches Lernerlebnis für Schüler. Die App ermöglicht es den Schülern, ihre Vokabelkenntnisse durch unterhaltsame Spiele zu verbessern. Durch die Gestaltung des Lernens als unterhaltsames Erlebnis zielt diese innovative App darauf ab, Bildung in eine interaktive und lohnende Erfahrung zu verwandeln. Freuen Sie sich auf eine aufregende Möglichkeit, Ihren Wortschatz zu erweitern!",
-            "foto": "cap.jpg"
+            "foto": "github.png"
         },
         "2": {
             "title": "Schul-Website des St. Josef Gymnasiums Dingelstädt",
             "text": "Wir haben die digitale Transformation unserer Schule unterstützt, indem wir eine umfassende Schulwebsite mit einem benutzerfreundlichen CMS-System entwickelt haben. Dieses System ermöglicht es Lehrern, mühelos Nachrichtenbeiträge zu erstellen, die Einblicke in das tägliche Leben an unserer Schule geben. Während dieses Projekts haben wir wertvolle Erfahrungen in der Zusammenarbeit mit Kunden gesammelt, das Projekt an ihre spezifischen Anforderungen angepasst und durch mehrere Feedback-Umfragen die Funktionalität der Website optimiert.",
-            "foto": "cap.jpg"
+            "foto": "Schulwebsite St.Josef Gymnasium.png"
         },
         "3": {
             "title": "Ein virtueller Schulrundgang",
             "text": "Angesichts der Herausforderungen durch die Covid-19-Pandemie benötigte unsere ehemalige Schule eine innovative Lösung, um ihren jährlichen Tag der offenen Tür online zu veranstalten. In Zusammenarbeit mit einer engagierten Gruppe von Freunden haben wir ein Projekt gestartet, um eine Website zu erstellen, die einen virtuellen Rundgang durch die Schule bietet und dabei jedes Fachgebiet und verschiedene andere Aspekte der Schulumgebung zeigt. Diese erste Version wurde 2021 realisiert, und ein Jahr später wurde die Website durch eine Verbesserung des Gesamtdesigns neu gestaltet. Bis 2023 haben wir diese virtuelle Tour erfolgreich in die offizielle Website der Schule integriert. Mein Hauptaugenmerk lag dabei auf der Frontend-Entwicklung und dem Design, um sicherzustellen, dass das Online-Erlebnis das Angebot und die Atmosphäre der Schule effektiv repräsentiert.",
-            "foto": "cap.jpg"
+            "foto": "schulrundgang.png"
         }
     },
     "services": {
         "0": {
             "title": "Erstellen Sie Ihre Traum-Website",
             "text": "Wo Innovation auf Ästhetik trifft! Steigern Sie Ihre Online-Präsenz mit einer Website, die modernste Technologie und fesselndes Design nahtlos verbindet. Tauchen Sie ein in eine Welt, in der Lernen auf Spiel trifft und personalisierte Erlebnisse auf Sie warten. Von interaktiven Modulen bis hin zu anregenden Diskussionen gestaltet unser Service eine digitale Reise, bei der das Außergewöhnliche zur Norm wird. Willkommen in einer neuen Ära der Online-Erlebnisse – verkaufen Sie noch heute Ihre Traum-Website und definieren Sie Ihren digitalen Fußabdruck neu!",
-            "foto": "fine-day-athem.jpg"
+            "foto": "uups4o8kqyrqawda08us.png"
         },
         "1": {
             "title": "Erstellen Sie Ihre Traum-App",
             "text": "Wo Innovation im Mittelpunkt steht! Steigern Sie Ihre Marke mit einer maßgeschneiderten mobilen Anwendung, die modernste Technologie und atemberaubendes Design nahtlos verbindet. Tauchen Sie die Benutzer in eine Welt nahtloser Funktionalität, ansprechender Funktionen und personalisierter Erlebnisse ein. Von interaktiven Schnittstellen bis hin zu benutzerfreundlicher Navigation gestaltet unser Service eine digitale Reise, die herausragt. Begrüßen Sie eine neue Ära mobiler Erlebnisse – verkaufen Sie noch heute \"Ihre Traum-App\" und definieren Sie die Art und Weise, wie Benutzer mit Ihrer Marke interagieren, neu!",
-            "foto": "fine-day-athem.jpg"
+            "foto": "gevglzawwqhjdtc4sf3p.png"
         }
     },
     "socialMedia": {

@@ -224,6 +224,10 @@ ul{
     align-content: center;
 }
 
+.headPicture img{
+    border-radius: 5px;
+}
+
 .bannerArticle{
     padding-inline: 2%;
     line-height: 1.25;
@@ -298,10 +302,12 @@ ul{
 
 .serviceText{
     font-size: 1.5rem;
+    opacity: 0.9;
 }
 
 .servicePicture img{
     max-width: 20vw;
+    border-radius: 20px;
 }
 
 /* Clients Article*/
@@ -389,7 +395,7 @@ ul{
 
 
 
-    /*  Animations   */
+/*  Animations   */
 
 .fadeIn{
     opacity: 0;
