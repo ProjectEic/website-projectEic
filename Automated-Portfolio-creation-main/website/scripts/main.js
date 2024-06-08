@@ -306,10 +306,10 @@ function addMailNumberContacts(email, number){
     const htmlString = 
     `
         <a class="contactEmail" href="mailto: ${email}">
-            email: ${email}
+            Email: ${email}
         </a>
         <a class="contactPhone" href="tel: ${number}">
-            phonenumber: ${number}
+            Telefon: ${number}
         </a>
     `;
 
