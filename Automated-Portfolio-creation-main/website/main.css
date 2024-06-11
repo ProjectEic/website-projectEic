@@ -7,6 +7,7 @@
     --secondaryColor: rgb(33, 110, 211);
     --accentColor: rgb(28, 28, 155);
     --backgroundColor: rgb(0, 0, 0); 
+    --navColor: rgb(30, 30, 30);
 
     /* Has to be edited induvidually each time */
     --complementaryColor: rgba(249, 248, 113, 1);
@@ -59,7 +60,7 @@ ul{
     width: 100%;
     height: 8vh;
 
-    background-color: var(--secondaryColor);
+    background-color: var(--navColor);
     color: var(--fontColor);
 
     position: fixed;

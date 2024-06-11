@@ -13,8 +13,10 @@ async function getData() {
         document.querySelector(".aboutText").innerHTML = data.general.aboutText;
         document.querySelector(".aboutFoto").firstElementChild.src = "img/" + data.general.aboutFoto;
         document.querySelector(".aboutFoto").firstElementChild.alt = data.general.aboutFoto;
-        document.querySelector(".LogoContainer").firstElementChild.src = "img/" + data.general.logo;
-        document.querySelector(".LogoContainer").firstElementChild.alt = data.general.logo;
+        document.querySelectorAll(".LogoContainer").forEach((e) => {
+            e.firstElementChild.src = "img/" + general.logo;
+            e.firstElementChild.alt = general.logo;
+        });;
 
         document.querySelector(":root").style.setProperty("--mainColor", data.colors.mainColor);
         document.querySelector(":root").style.setProperty("--secondaryColor", data.colors.secondaryColor);

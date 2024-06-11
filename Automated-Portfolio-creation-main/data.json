@@ -1,8 +1,8 @@
 {
     "general": {
         "aboutText": "Lernen Sie Luca und Jakob kennen, ein dynamisches Duo professioneller Programmierer, die eine Leidenschaft für die Entwicklung effizienter, schneller und intuitiver Softwarelösungen teilen. Ihre gemeinsame Reise begann mit der Vision, innovative digitale Erlebnisse zu schaffen, die das Leben der Nutzer verbessern.\n\nNach erfolgreicher Durchführung mehrerer Projekte haben Luca und Jakob ihre Fähigkeiten in der Programmierwelt unter Beweis gestellt. Ihre Hingabe und ihr Fachwissen brachten ihnen kürzlich den prestigeträchtigen zweiten Platz in einem herausfordernden Softwarewettbewerb ein.\n\nZu ihren bemerkenswerten Leistungen gehört die Erstellung einer Social-Media-App und mehrerer Websites für ihre Schule. Derzeit sind die beiden in mehrere Projekte vertieft, die alle ihren innovativen Ansatz zur Problemlösung widerspiegeln. Ein herausragendes Projekt ist die Entwicklung einer Vokabellern-App, die Gamification-Techniken einsetzt, um den Lernprozess ansprechender und unterhaltsamer zu gestalten. Durch die Kombination von Bildung und Unterhaltung wollen Luca und Jakob die Art und Weise revolutionieren, wie Menschen neue Sprachkenntnisse erwerben.\n\nIhr kollaborativer Prozess ist durch eine nahtlose Synergie gekennzeichnet, bei der Lucas Liebe zum Detail Jakobs kreatives Problemlösen ergänzt. Zusammen bilden sie ein dynamisches Team, das Herausforderungen liebt und stets hochwertige Softwarelösungen liefert.\n\nLuca und Jakobs Engagement für Exzellenz geht über die technischen Aspekte der Programmierung hinaus. Sie verstehen die Bedeutung der Benutzererfahrung und bemühen sich kontinuierlich, Software zu erstellen, die nicht nur einwandfrei funktioniert, sondern auch eine angenehme und intuitive Interaktion für die Nutzer bietet.",
-        "aboutFoto": "liszt.jpg",
-        "logo": "cap.jpg",
+        "aboutFoto": "Schirmer&Rinke.png",
+        "logo": "Schirmer&Rinke_blackBackground.png",
         "title": "SchirmerRinke Software",
         "email": "projecteic.contact@gmail.com",
         "phoneNumber": "0123456789"
@@ -49,7 +49,9 @@
     },
     "socialMedia": {
       "linkedInURL": "https://www.linkedin.com/in/luca-schirmer-9b3390312/",
-      "githubURL": "https://github.com/organizations/ProjectEic"
+      "githubURL": "https://github.com/organizations/ProjectEic",
+      "twitterURL": "https://x.com/JakobRinke",
+      "websiteURL": "https://lucaschirmer.netlify.app/"
     }
   }
   
