@@ -1,11 +1,12 @@
 // Aquire data
 async function getData() {
-    try {
+    // try {
         // Url Json file
         let dataJsonUrl = "../data.json";
 
         const response = await fetch(dataJsonUrl);
         const data = await response.json();
+        console.log(data)
 
         // addMetaDescription(data.general.metaDescription);
         document.title = data.general.title;
@@ -14,8 +15,8 @@ async function getData() {
         document.querySelector(".aboutFoto").firstElementChild.src = "img/" + data.general.aboutFoto;
         document.querySelector(".aboutFoto").firstElementChild.alt = data.general.aboutFoto;
         document.querySelectorAll(".LogoContainer").forEach((e) => {
-            e.firstElementChild.src = "img/" + general.logo;
-            e.firstElementChild.alt = general.logo;
+            e.firstElementChild.src = "img/" + data.general.logo;
+            e.firstElementChild.alt = data.general.logo;
         });;
 
         document.querySelector(":root").style.setProperty("--mainColor", data.colors.mainColor);
@@ -68,9 +69,9 @@ async function getData() {
 
         const faders = document.querySelectorAll(".fadeIn");
         startObserver(faders);
-    } catch (error) {
-        console.error("Error fetching and populating data:", error);
-    }
+    // } catch (error) {
+    //     console.error("Error fetching and populating data:", error);
+    // }
 }
 
 getData();

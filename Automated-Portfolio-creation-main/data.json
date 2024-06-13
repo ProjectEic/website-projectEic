@@ -33,7 +33,12 @@
             "title": "Ein virtueller Schulrundgang",
             "text": "Angesichts der Herausforderungen durch die Covid-19-Pandemie benötigte unsere ehemalige Schule eine innovative Lösung, um ihren jährlichen Tag der offenen Tür online zu veranstalten. In Zusammenarbeit mit einer engagierten Gruppe von Freunden haben wir ein Projekt gestartet, um eine Website zu erstellen, die einen virtuellen Rundgang durch die Schule bietet und dabei jedes Fachgebiet und verschiedene andere Aspekte der Schulumgebung zeigt. Diese erste Version wurde 2021 realisiert, und ein Jahr später wurde die Website durch eine Verbesserung des Gesamtdesigns neu gestaltet. Bis 2023 haben wir diese virtuelle Tour erfolgreich in die offizielle Website der Schule integriert. Mein Hauptaugenmerk lag dabei auf der Frontend-Entwicklung und dem Design, um sicherzustellen, dass das Online-Erlebnis das Angebot und die Atmosphäre der Schule effektiv repräsentiert.",
             "foto": "schulrundgang.png"
-        }
+        },
+        "4": {
+         "title": "Live Game Library",
+         "text": "Wir haben ein Flutter-Framework entwickelt, das die Entwicklung von Echtzeit-Multiplayer-Spielen vereinfacht. Diese Bibliothek erleichtert den Prozess der Erstellung von fesselnden und interaktiven Multiplayer-Erlebnissen. Befolgen Sie die folgenden Schritte, um schnell loszulegen.",
+         "foto": "live_game_lib.jpg"
+       }
     },
     "services": {
         "0": {
