@@ -1,7 +1,7 @@
 // Aquire data
 async function getData(projectNum, bool = false) {
     // URL of the JSON file
-    let dataJsonUrl = "../data.json";
+    let dataJsonUrl = "./data.json";
 
     const request = await fetch(dataJsonUrl);
     const response = await request.json();
