@@ -2,7 +2,7 @@
 async function getData() {
     // try {
         // Url Json file
-        let dataJsonUrl = "../data.json";
+        let dataJsonUrl = "./data.json";
 
         const response = await fetch(dataJsonUrl);
         const data = await response.json();
