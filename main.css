@@ -1,0 +1,562 @@
+:root{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    --mainColor: rgb(127, 127, 127);
+    --secondaryColor: rgb(33, 110, 211);
+    --accentColor: rgb(28, 28, 155);
+    --backgroundColor: rgb(54, 54, 54); 
+    --navColor: rgb(20, 20, 20);
+
+    /* Has to be edited induvidually each time */
+    --complementaryColor: rgba(249, 248, 113, 1);
+
+    --fontColor: rgba(255, 255, 255,1);
+
+    --fontFamily: 'Lato', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+    scroll-behavior: smooth;
+
+    font-family: var(--fontFamily);
+} 
+
+
+/* toggle classes */
+
+.toggleFixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.toggleRotate{
+    transform: rotate(180deg);
+    align-self: flex-start;
+}
+
+.nav-active{
+    transform: translateX(0%) !important;
+}
+
+/* Navbar-Style */
+
+a{
+    text-decoration: none;
+    color: var(--fontColor)
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.topHeader{
+    width: 100%;
+    height: 8vh;
+
+    background-color: var(--navColor);
+    color: var(--fontColor);
+
+    position: fixed;
+    z-index: 1000;
+}
+
+.topNav, .topNavMobile{
+    display: flex;
+    flex-direction: row;
+}
+
+.LogoContainer{
+    width: 30%;
+    height: 8vh;
+}
+
+.LogoContainer img{
+    height: 4vh;
+    padding: 2vh;
+}
+
+.navList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 70%;
+    height: 8vh;
+}
+
+.ListItem{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: max(16px, 2vh);
+}
+
+/* responsive nav */
+
+.burger{
+    display: none;
+}
+
+.burger img{
+    height: 3.5vh;    
+}
+
+.burger div{
+    width: 25px;
+    height: 2px;
+
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+
+.toggleBurger div{
+    display: none;
+}
+
+.toggleImageBurger{
+    display: none; 
+}
+
+.indexUlMobile{
+    display: flex; 
+    flex-direction: row;
+    width: 100%;
+}
+
+.indexUlMobile, .sideUL{
+    display: none;
+}
+
+
+/* About article */
+
+.articleAbout{
+    min-height: 92vh;
+    padding-top: 8vh;
+
+    display: grid;
+    grid-template-areas: 
+    "a b"
+    "a c";
+
+    text-align: justify;
+}
+
+.aboutFoto{
+    grid-area: a;
+    width: 45vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.aboutName{
+    grid-area: b;
+    width: 100%;
+
+    padding-top: 2vh;
+
+    color: var(--secondaryColor);
+    font-size: 5vh;
+    font-weight: 600;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.aboutText{
+    width: 50vw;
+    grid-area: c;
+
+    line-height: 2;
+}
+
+/* Portfolio Article */
+
+.articlePortfolio{
+   display: grid; 
+
+   grid-template-columns:  1fr 1fr 1fr;
+   grid-template-rows: auto;
+
+   justify-content: space-around;
+
+   background-color: var(--secondaryColor);    
+
+   column-gap: 5%;
+   padding: 10vh 5vw 10vh 5vw;
+}
+
+.bannerPortfolio{
+    height: 65vh;
+
+    background-color: var(--backgroundColor);
+
+    display: grid; 
+    grid-template-rows: minmax(30vh, 3fr) 1fr;
+    justify-content: space-evenly;
+    border-radius: 3%;
+
+    padding: 2%;
+    margin-bottom: 10vh;
+}
+
+.subBannerPortfolio{
+    height: 100vh;
+
+    background-color: var(--backgroundColor);
+    padding: 20vh;
+}
+
+.headPicture{
+    aspect-ratio: 4/3;
+    object-fit: contain;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.headPicture img{
+    border-radius: 5px;
+}
+
+.bannerArticle{
+    padding-inline: 2%;
+    line-height: 1.25;
+
+    text-align: justify;
+}
+
+.bannerHeadline{
+    color: var(--accentColor);
+    filter: invert(1);
+    font-weight: 800;
+
+    padding: 3%;
+}
+
+.bannerText{
+    color: var(--mainColor);
+    padding: 3%;
+}
+
+.imgLeftArrow, .imgRightArrow{
+    position: fixed;
+    padding-top: 40vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+
+    width: 5vw;
+
+    z-index: 100;
+}
+
+.imgRightArrow{
+    right: 0;
+}
+
+.headPicture img{
+    width: 100%;
+    object-fit: cover;
+
+    max-height: 25vh;
+}
+
+.subBannerPortfolio .headPicture{
+    max-height: 25vh;
+    width: 100%;
+}
+
+
+/* Services Article */
+
+.articleServices{
+    min-height: 50vh;
+}
+
+.service{
+    padding: 20vh;
+    min-height: 30vh;
+    text-align: center;
+
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+}
+
+.articleServices .service:nth-child(2){
+    background-color: var(--secondaryColor);
+    color: #fff;
+}
+
+.serviceHeadline{
+    font-size: 3rem;
+}
+
+.serviceText{
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
+
+.servicePicture img{
+    max-width: 20vw;
+    border-radius: 20px;
+}
+
+/* Clients Article*/
+
+.articleClients{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.client{
+    width: 21.8%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+
+/* Contact Article*/
+
+.articleContact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 10vh;
+    background-color: rgb(25, 22, 22);
+}
+
+.contactContainer{
+    display: grid; 
+
+    width: 100%;
+
+    place-content: center;
+}
+
+.contact{
+    height: 14vh; 
+
+    display: flex; 
+    flex-direction: column;
+}
+
+.contactSpan{
+    color: white;
+    margin: 1%;
+    margin-top: 2vh;
+
+    text-align: center;
+}
+
+.contact a{
+    height: 7.5vh;
+    text-align: center;
+}
+
+.contactIMG{
+    height: 100%;
+    padding: 1%;
+
+    object-fit: contain;
+    aspect-ratio: 4/3;
+}
+
+
+.mailNphone{
+    display: flex; 
+    flex-flow: row wrap;
+    width: 100%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 0vh;
+    padding-bottom: 10vh;
+    
+    justify-content: space-evenly;
+}
+
+
+.contactEmail{
+    padding-bottom: 2vh;
+}
+
+
+
+
+/*  Animations   */
+
+.fadeIn{
+    opacity: 0;
+}
+
+.left{
+    transform: translateX(-50%);    
+}
+
+.right{
+    transform: translateX(50%);
+}
+
+.appear{
+    transition: all 500ms ease-in;
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+
+
+
+/* Responsive */
+
+@media (max-width: 1000px){
+
+    .client{
+        width: 30%;
+    }
+}
+
+@media (max-width: 800px){
+
+    .topNav{
+        display: none;
+    }
+
+    .indexUlMobile{
+        display: flex;
+    }
+
+    .burger{
+        display: flex;
+        height: 60%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        cursor: pointer;                
+    }
+
+    .sideUL{
+        top: 8vh;
+        right: 0px;
+
+        height: 92vh;
+        width: 60vw;
+        
+        display: block;
+        position: fixed;
+        z-index: 2000;
+
+        background-color: var(--secondaryColor);
+        transform: translateX(100%);
+        transition: transform 0.66s ease-in;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+    .sideUL li{
+        font-size: 16px;
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+    }
+
+    #firstChildSideUl{
+        padding-top: 12vh;
+    }
+
+    .articleAbout{
+        display: flex; 
+        flex-direction: column;
+    }
+
+    .aboutFoto{
+        width: 100vw;
+        margin-top: 5vh; 
+    }
+
+    .aboutFoto img{
+        height: 30vh;
+
+        margin: 2.5%
+    }
+
+    .aboutText{
+        width: 90vw; 
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .articlePortfolio{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .servicePicture{
+        padding-bottom: 10vh;
+    }
+
+    .subPortfolio{
+        background-color: var(--backgroundColor);
+    }
+
+    .subBannerPortfolio{
+        margin-top: 30vh
+    }
+
+    .buttonLeft, .buttonRight{
+        width: 50%; 
+    }
+
+    .buttonLeft img, .buttonRight img{
+        left: 0;  
+        position: fixed; 
+        width: 25%;
+        padding: 0;
+        padding-left: 12.5%; 
+        padding-top: 2.5%; 
+    }
+    .buttonRight img{
+        left: 50%; 
+    }
+
+    .serviceHeadline{
+        font-size: 1.75rem;
+    }
+    
+    .serviceText{
+        font-size: 1rem;
+    }
+    
+    .service{
+        padding: 10vh;
+    }
+
+    .subBannerPortfolio{
+        padding: 7vh;
+    }
+    
+}
+
+
+@media (max-width: 600px){
+    .articlePortfolio{
+        grid-template-columns: 1fr;
+    }
+}

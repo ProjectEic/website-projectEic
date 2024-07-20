@@ -1,0 +1,62 @@
+{
+    "general": {
+        "aboutText": "Lernen Sie Luca und Jakob kennen, ein dynamisches Duo professioneller Programmierer, die eine Leidenschaft für die Entwicklung effizienter, schneller und intuitiver Softwarelösungen teilen. Ihre gemeinsame Reise begann mit der Vision, innovative digitale Erlebnisse zu schaffen, die das Leben der Nutzer verbessern.\n\nNach erfolgreicher Durchführung mehrerer Projekte haben Luca und Jakob ihre Fähigkeiten in der Programmierwelt unter Beweis gestellt. Ihre Hingabe und ihr Fachwissen brachten ihnen kürzlich den prestigeträchtigen zweiten Platz in einem herausfordernden Softwarewettbewerb ein.\n\nZu ihren bemerkenswerten Leistungen gehört die Erstellung einer Social-Media-App und mehrerer Websites für ihre Schule. Derzeit sind die beiden in mehrere Projekte vertieft, die alle ihren innovativen Ansatz zur Problemlösung widerspiegeln. Ein herausragendes Projekt ist die Entwicklung einer Vokabellern-App, die Gamification-Techniken einsetzt, um den Lernprozess ansprechender und unterhaltsamer zu gestalten. Durch die Kombination von Bildung und Unterhaltung wollen Luca und Jakob die Art und Weise revolutionieren, wie Menschen neue Sprachkenntnisse erwerben.\n\nIhr kollaborativer Prozess ist durch eine nahtlose Synergie gekennzeichnet, bei der Lucas Liebe zum Detail Jakobs kreatives Problemlösen ergänzt. Zusammen bilden sie ein dynamisches Team, das Herausforderungen liebt und stets hochwertige Softwarelösungen liefert.\n\nLuca und Jakobs Engagement für Exzellenz geht über die technischen Aspekte der Programmierung hinaus. Sie verstehen die Bedeutung der Benutzererfahrung und bemühen sich kontinuierlich, Software zu erstellen, die nicht nur einwandfrei funktioniert, sondern auch eine angenehme und intuitive Interaktion für die Nutzer bietet.",
+        "aboutFoto": "Schirmer&Rinke.png",
+        "logo": "Schirmer&Rinke_blackBackground.png",
+        "title": "Schirmer & Rinke Software",
+        "email": "projecteic.contact@gmail.com",
+        "phoneNumber": "+4915202861103"
+    },
+    "colors": {
+        "mainColor": "#2992c1",
+        "secondaryColor": "#406798",
+        "accentColor": "#93611c",
+        "backgroundColor": "#1a1a1a"
+    },
+    "projects": {
+        "0": {
+            "title": "Grouping",
+            "text": "Wir haben mit einem unserer Freunde an einem Projekt gearbeitet, das mit Flutter entwickelt wurde. Unser Projekt, genannt Grouping, wurde entwickelt, um die Herausforderungen des Eventmanagements zu bewältigen und die Funktionalität von Gruppen im Vergleich zu anderen Social-Media-Apps wie WhatsApp zu verbessern. Aufgrund der erheblichen Kosten für die Wartung einer App und die Listung in App-Stores haben wir uns entschieden, sie ausschließlich als Open-Source-Docker-Version verfügbar zu machen, die Benutzer selbst hosten können. Die App ist für iOS, Android und Windows verfügbar.",
+            "foto": "Grouping.png"
+        },
+        "1": {
+            "title": "PerformQuizz",
+            "text": "Unsere kommende Vokabel-App bietet ein spielerisches Lernerlebnis für Schüler. Die App ermöglicht es den Schülern, ihre Vokabelkenntnisse durch unterhaltsame Spiele zu verbessern. Durch die Gestaltung des Lernens als unterhaltsames Erlebnis zielt diese innovative App darauf ab, Bildung in eine interaktive und lohnende Erfahrung zu verwandeln. Freuen Sie sich auf eine aufregende Möglichkeit, Ihren Wortschatz zu erweitern!",
+            "foto": "github.png"
+        },
+        "2": {
+            "title": "Schul-Website des St. Josef Gymnasiums Dingelstädt",
+            "text": "Wir haben die digitale Transformation unserer Schule unterstützt, indem wir eine umfassende Schulwebsite mit einem benutzerfreundlichen CMS-System entwickelt haben. Dieses System ermöglicht es Lehrern, mühelos Nachrichtenbeiträge zu erstellen, die Einblicke in das tägliche Leben an unserer Schule geben. Während dieses Projekts haben wir wertvolle Erfahrungen in der Zusammenarbeit mit Kunden gesammelt, das Projekt an ihre spezifischen Anforderungen angepasst und durch mehrere Feedback-Umfragen die Funktionalität der Website optimiert.",
+            "foto": "Schulwebsite St.Josef Gymnasium.png"
+        },
+        "3": {
+            "title": "Ein virtueller Schulrundgang",
+            "text": "Angesichts der Herausforderungen durch die Covid-19-Pandemie benötigte unsere ehemalige Schule eine innovative Lösung, um ihren jährlichen Tag der offenen Tür online zu veranstalten. In Zusammenarbeit mit einer engagierten Gruppe von Freunden haben wir ein Projekt gestartet, um eine Website zu erstellen, die einen virtuellen Rundgang durch die Schule bietet und dabei jedes Fachgebiet und verschiedene andere Aspekte der Schulumgebung zeigt. Diese erste Version wurde 2021 realisiert, und ein Jahr später wurde die Website durch eine Verbesserung des Gesamtdesigns neu gestaltet. Bis 2023 haben wir diese virtuelle Tour erfolgreich in die offizielle Website der Schule integriert. Mein Hauptaugenmerk lag dabei auf der Frontend-Entwicklung und dem Design, um sicherzustellen, dass das Online-Erlebnis das Angebot und die Atmosphäre der Schule effektiv repräsentiert.",
+            "foto": "schulrundgang.png"
+        },
+        "4": {
+         "title": "Live Game Library",
+         "text": "Wir haben ein Flutter-Framework entwickelt, das die Entwicklung von Echtzeit-Multiplayer-Spielen vereinfacht. Diese Bibliothek erleichtert den Prozess der Erstellung von fesselnden und interaktiven Multiplayer-Erlebnissen. Befolgen Sie die folgenden Schritte, um schnell loszulegen.",
+         "foto": "live_game_lib.jpg"
+       }
+    },
+    "services": {
+        "0": {
+            "title": "Erstellen Sie Ihre Traum-Website",
+            "text": "Wo Innovation auf Ästhetik trifft! Steigern Sie Ihre Online-Präsenz mit einer Website, die modernste Technologie und fesselndes Design nahtlos verbindet. Tauchen Sie ein in eine Welt, in der Lernen auf Spiel trifft und personalisierte Erlebnisse auf Sie warten. Von interaktiven Modulen bis hin zu anregenden Diskussionen gestaltet unser Service eine digitale Reise, bei der das Außergewöhnliche zur Norm wird. Willkommen in einer neuen Ära der Online-Erlebnisse – verkaufen Sie noch heute Ihre Traum-Website und definieren Sie Ihren digitalen Fußabdruck neu!",
+            "foto": "uups4o8kqyrqawda08us.png"
+        },
+        "1": {
+            "title": "Erstellen Sie Ihre Traum-App",
+            "text": "Wo Innovation im Mittelpunkt steht! Steigern Sie Ihre Marke mit einer maßgeschneiderten mobilen Anwendung, die modernste Technologie und atemberaubendes Design nahtlos verbindet. Tauchen Sie die Benutzer in eine Welt nahtloser Funktionalität, ansprechender Funktionen und personalisierter Erlebnisse ein. Von interaktiven Schnittstellen bis hin zu benutzerfreundlicher Navigation gestaltet unser Service eine digitale Reise, die herausragt. Begrüßen Sie eine neue Ära mobiler Erlebnisse – verkaufen Sie noch heute \"Ihre Traum-App\" und definieren Sie die Art und Weise, wie Benutzer mit Ihrer Marke interagieren, neu!",
+            "foto": "gevglzawwqhjdtc4sf3p.png"
+        }
+    },
+    "socialMedia": {
+      "linkedInURL": "https://www.linkedin.com/in/luca-schirmer-9b3390312/",
+      "githubURL": "https://github.com/organizations/ProjectEic",
+      "twitterURL": "https://x.com/JakobRinke",
+      "websiteURL": "https://lucaschirmer.netlify.app/"
+    }
+  }
+  
