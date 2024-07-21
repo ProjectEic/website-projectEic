@@ -12,8 +12,6 @@ async function getData() {
         document.title = data.general.title;
         document.querySelector(".aboutName").innerHTML = data.general.title;
         document.querySelector(".aboutText").innerHTML = data.general.aboutText;
-        document.querySelector(".aboutFoto").firstElementChild.src = "img/" + data.general.aboutFoto;
-        document.querySelector(".aboutFoto").firstElementChild.alt = data.general.aboutFoto;
         document.querySelectorAll(".LogoContainer").forEach((e) => {
             e.firstElementChild.src = "img/" + data.general.logo;
             e.firstElementChild.alt = data.general.logo;
@@ -309,10 +307,10 @@ function addMailNumberContacts(email, number){
     const htmlString = 
     `
         <a class="contactEmail" href="mailto: ${email}">
-            Email: ${email}
+            Email:<br> ${email}
         </a>
         <a class="contactPhone" href="tel: ${number}">
-            Telefon: ${number}
+            Telefon:<br> ${number}
         </a>
     `;
 
