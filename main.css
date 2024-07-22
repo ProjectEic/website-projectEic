@@ -27,6 +27,9 @@
     font-family: var(--fontFamily);
 } 
 
+body{
+    overflow-x: hidden;
+}
 
 /* toggle classes */
 
@@ -71,11 +74,16 @@ ul{
 .topNav, .topNavMobile{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .LogoContainer{
-    width: 30%;
-    height: 8vh;
+    overflow-y: hidden;
+    height: 100%;
+    width: fit-content;
+    display: grid;
+    justify-content: center;
+    align-content: center;
 }
 
 .LogoContainer img{
@@ -88,7 +96,6 @@ ul{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
     width: 70%;
     height: 8vh;
 }
@@ -154,7 +161,7 @@ ul{
     padding-top: 2vh;
 
     color: var(--secondaryColor);
-    font-size: 48px;
+    font-size: 3.5rem;
     font-weight: 600;
 
     display: grid;
@@ -174,7 +181,7 @@ ul{
     line-height: 2;
     color: var(--fontColor);
     background-color: var(--aboutTextBackground);
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 /* Portfolio Article */
@@ -194,12 +201,11 @@ ul{
 }
 
 .bannerPortfolio{
-    height: 65vh;
+    min-height: 65vh;
 
     background-color: var(--backgroundColor);
 
     display: grid; 
-    grid-template-rows: minmax(30vh, 3fr) 1fr;
     justify-content: space-evenly;
     border-radius: 3%;
 
@@ -215,7 +221,6 @@ ul{
 }
 
 .headPicture{
-    aspect-ratio: 4/3;
     object-fit: contain;
 
     display: grid;
@@ -270,7 +275,7 @@ ul{
 }
 
 .subBannerPortfolio .headPicture{
-    max-height: 25vh;
+    height: fit-content;
     width: 100%;
 }
 
@@ -419,10 +424,41 @@ ul{
 }
 
 
+@media only screen and (max-width: 1300px){
+    .aboutName{
+        font-size: 3rem;
+    }
+
+    .aboutTextWrapper{
+        padding-top: 0.25%;
+    }
+
+    .aboutText{
+        font-size: 1.15rem;
+    }
+}
+
+
+@media only screen and (max-width: 1100px){
+    .aboutName{
+        justify-content: start;
+        padding-left: 5%;
+        width: 95%;
+        font-size: 44px;
+    }
+
+    .serviceHeadline{
+        font-size: 2rem;   
+    }
+
+    .serviceText{
+        font-size: 1rem;
+    }
+}
 
 /* Responsive */
 
-@media (max-width: 1000px){
+@media only screen and (max-width: 1000px){
 
     .client{
         width: 30%;
@@ -442,7 +478,7 @@ ul{
     }
 }
 
-@media (max-width: 800px){
+@media only screen and (max-width: 800px){
 
     .topNav{
         display: none;
@@ -503,6 +539,9 @@ ul{
     .aboutName{
         padding-top: 0;
         font-size: 32px;
+        justify-content: center;
+        padding-left: unset;
+        width: 100%;
         background-color: var(--aboutTextBackground);
     }
 
@@ -532,21 +571,19 @@ ul{
         margin-top: 30vh
     }
 
-    .buttonLeft, .buttonRight{
-        width: 50%; 
+    .buttonWrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-evenly;
+        align-content: center;
+        width: 100%;
+        height: 1px;
     }
-
     .buttonLeft img, .buttonRight img{
-        left: 0;  
-        position: fixed; 
-        width: 25%;
-        padding: 0;
-        padding-left: 12.5%; 
+        width: 10%;
         padding-top: 2.5%; 
     }
-    .buttonRight img{
-        left: 50%; 
-    }
+
 
     .serviceHeadline{
         font-size: 1.75rem;
@@ -567,16 +604,16 @@ ul{
 }
 
 
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
     .articlePortfolio{
         grid-template-columns: 1fr;
     }
 
-    .bannerPortfolio {
-        height: 55vh;
+    .bannerPortfolio{
+        min-height: 55vh;
     }
 
-    .headPicture {
+    .headPicture{
         align-content: unset;
         width: 100%;
         height: 30vh;
@@ -586,10 +623,10 @@ ul{
         background-position: 20% 0%;
     }
 
-    .aboutText {
+    .aboutText{
         font-size: 13px;
     }
-    .aboutName {
+    .aboutName{
         font-size: 24px;
     }
 
@@ -599,8 +636,35 @@ ul{
     }
 }
 
-@media (max-width: 400px){
+@media only screen and (max-width: 400px){
     .articleAbout{
         background-position: 50% 0%;
+    }
+}
+
+
+@media only screen and (max-width: 800px) and (max-height: 800px){
+    .articleAbout{
+        background-position-y: 20%;
+    }
+}
+
+@media only screen and (max-width: 800px) and (max-height: 600px){
+    .articleAbout{
+        background-position-y: 40%;
+    }
+
+    .aboutTextWrapper{
+        margin-top: 60vh;
+        height: fit-content;
+    }
+}
+
+
+
+@media only screen and (max-height: 400px) and (min-width: 801px){
+    .aboutText{
+        font-size: 1rem;
+        line-height: 1.75;
     }
 }

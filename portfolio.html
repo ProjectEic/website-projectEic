@@ -66,22 +66,24 @@
     </header>
     <main class="portfolioMain">
         <article class="subPortfolio" id="subPortfolio" style="padding-top: 8vh;">
-            <div class="buttonLeft">
-                <img src="img/Pfeil-links.png" alt="arrow left" class="imgLeftArrow" onclick="
-                let n = window.location.search.replace('?project=', ''); 
-                let output = parseInt(n) - 1;
-                console.log(output)
-                getData(output, true);
-                ">
-            </div>
-            <div class="buttonRight">
-                <img src="img/Pfeil-rechts.png" alt="arrow right" class="imgRightArrow"onclick="
-                let n = window.location.search.replace('?project=', ''); 
+            <div class="buttonWrapper">
+                <div class="buttonLeft">
+                    <img src="img/Pfeil-links.png" alt="arrow left" class="imgLeftArrow" onclick="
+                    let n = window.location.search.replace('?project=', ''); 
+                    let output = parseInt(n) - 1;
+                    console.log(output)
+                    getData(output, true);
+                    ">
+                </div>
+                <div class="buttonRight">
+                    <img src="img/Pfeil-rechts.png" alt="arrow right" class="imgRightArrow"onclick="
+                    let n = window.location.search.replace('?project=', ''); 
 
-                let output = parseInt(n) + 1;
-                console.log(output)
-                getData(output, true);
-                ">
+                    let output = parseInt(n) + 1;
+                    console.log(output)
+                    getData(output, true);
+                    ">
+                </div>
             </div>
         </article>
     </main>
