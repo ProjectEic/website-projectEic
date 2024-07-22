@@ -128,7 +128,48 @@ function addProject(title, text, fotoUrl){
 
 function addContact(title, link){
     const contactContainer = document.querySelector(".contactContainer");
-    
+    if(title == "linkedIn"){
+        //html prefab
+        const htmlString = 
+        `
+            <a class="contactAnker" href="${link}">
+                <img class="contactIMG" src="img/${title}.png" alt="${title}"> 
+            </a>
+            <span class="contactSpan">Luca ${title} </span>
+        `;
+
+        const contactDiv = document.createElement("div");
+
+        contactDiv.classList.add("contact");
+        contactDiv.setAttribute("id", title);
+        contactDiv.innerHTML = htmlString;
+
+        contactContainer.appendChild(contactDiv);
+
+
+
+        title = "linkedIn";
+        link = "https://www.linkedin.com/in/jakob-rinke-908b87262/";
+        const htmlString2 = 
+        `
+            <a class="contactAnker" href="${link}">
+                <img class="contactIMG" src="img/${title}.png" alt="${title}"> 
+            </a>
+            <span class="contactSpan">Jakob ${title} </span>
+        `;
+
+        const contactDiv2 = document.createElement("div");
+
+        contactDiv2.classList.add("contact");
+        contactDiv2.setAttribute("id", title);
+        contactDiv2.innerHTML = htmlString2;
+
+        contactContainer.appendChild(contactDiv2);
+
+        return;
+    }
+
+    //html prefab
     const htmlString = 
     `
         <a class="contactAnker" href="${link}">
