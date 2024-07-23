@@ -201,7 +201,7 @@ ul{
 }
 
 .bannerPortfolio{
-    min-height: 65vh;
+    min-height: fit-content;
 
     background-color: var(--backgroundColor);
 
@@ -380,11 +380,11 @@ ul{
 
 .mailNphone{
     display: flex; 
-    flex-flow: row wrap;
+    flex-direction: row;
     width: 100%;
     justify-content: center;
     padding-top: 0vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
     
     justify-content: space-evenly;
 }
@@ -392,6 +392,22 @@ ul{
 
 .contactEmail{
     padding-bottom: 2vh;
+}
+
+.rechtlichesWrapper{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+.rechtlichesWrapper a{
+    width: fit-content;
+}
+
+.rechtlichesWrapper a:hover{
+   text-decoration: underline;
 }
 
 /*  Animations   */
@@ -602,10 +618,6 @@ ul{
         grid-template-columns: 1fr;
     }
 
-    .bannerPortfolio{
-        min-height: 55vh;
-    }
-
     .headPicture{
         align-content: unset;
         width: 100%;
@@ -630,6 +642,12 @@ ul{
 
     .contactContainer{
         row-gap: 10vh;
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .mailNphone{
+        flex-direction: column;
+
     }
 }
 
