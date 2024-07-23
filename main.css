@@ -384,7 +384,7 @@ ul{
     width: 100%;
     justify-content: center;
     padding-top: 0vh;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
     
     justify-content: space-evenly;
 }
@@ -392,6 +392,22 @@ ul{
 
 .contactEmail{
     padding-bottom: 2vh;
+}
+
+.rechtlichesWrapper{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+.rechtlichesWrapper a{
+    width: fit-content;
+}
+
+.rechtlichesWrapper a:hover{
+   text-decoration: underline;
 }
 
 /*  Animations   */

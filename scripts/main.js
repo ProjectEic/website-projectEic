@@ -319,4 +319,27 @@ function addMailNumberContacts(email, number){
     contactDiv.innerHTML = htmlString;
 
     articleContact.appendChild(contactDiv);
+    addImpressumAndDatenSchutz();
+}
+
+function addImpressumAndDatenSchutz(){
+    const articleContact = document.querySelector(".articleContact");
+    
+    // html prefab
+    const htmlString = 
+    `
+        <a class="impressum" href="#">
+            Impressum
+        </a>
+        <a class="datenschutz" href="#">
+            Datenschutz
+        </a>
+    `;
+
+    const contactDiv = document.createElement("div");
+    contactDiv.classList.add("rechtlichesWrapper");
+    contactDiv.classList.add("fadeIn");
+    contactDiv.innerHTML = htmlString;
+
+    articleContact.appendChild(contactDiv);
 }
