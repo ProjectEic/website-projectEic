@@ -201,7 +201,7 @@ ul{
 }
 
 .bannerPortfolio{
-    min-height: 65vh;
+    min-height: fit-content;
 
     background-color: var(--backgroundColor);
 
@@ -600,10 +600,6 @@ ul{
 @media screen and (max-width: 600px){
     .articlePortfolio{
         grid-template-columns: 1fr;
-    }
-
-    .bannerPortfolio{
-        min-height: 55vh;
     }
 
     .headPicture{
