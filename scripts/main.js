@@ -6,7 +6,6 @@ async function getData() {
 
         const response = await fetch(dataJsonUrl);
         const data = await response.json();
-        console.log(data)
 
         // addMetaDescription(data.general.metaDescription);
         document.title = data.general.title;
@@ -172,7 +171,6 @@ function addProject(title, text, fotoUrl, num){
     if(text.length > 150){
        text = text.slice(0,147);
        text += "...";
-       console.log(text)
    }
 
     //html prefab

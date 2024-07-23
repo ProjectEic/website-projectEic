@@ -20,7 +20,6 @@ function startObserver(faders){
 
 
     faders.forEach(fader => {
-        console.log(fader)
         onScroll.observe(fader)
     });
 
