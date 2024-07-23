@@ -375,7 +375,6 @@ ul{
     padding: 1%;
 
     object-fit: contain;
-    aspect-ratio: 4/3;
 }
 
 
@@ -383,8 +382,7 @@ ul{
     display: flex; 
     flex-flow: row wrap;
     width: 100%;
-    padding-left: 5vh;
-    padding-right: 5vh;
+    justify-content: center;
     padding-top: 0vh;
     padding-bottom: 10vh;
     
@@ -395,9 +393,6 @@ ul{
 .contactEmail{
     padding-bottom: 2vh;
 }
-
-
-
 
 /*  Animations   */
 
@@ -567,10 +562,6 @@ ul{
         background-color: var(--backgroundColor);
     }
 
-    .subBannerPortfolio{
-        margin-top: 30vh
-    }
-
     .buttonWrapper{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -598,7 +589,9 @@ ul{
     }
 
     .subBannerPortfolio{
-        padding: 7vh;
+        padding: 4%;
+        margin-top: 5vh;
+        height: fit-content;
     }
     
 }
@@ -634,11 +627,23 @@ ul{
         margin-top: 70vh;
         height: fit-content;
     }
+
+    .contactContainer{
+        row-gap: 10vh;
+    }
 }
 
 @media screen and (max-width: 400px){
     .articleAbout{
         background-position: 50% 0%;
+    }
+
+    .articleContact{
+        font-size: 12px;
+    }
+
+    .sideUL{
+        width: 80vw;
     }
 }
 
