@@ -214,7 +214,7 @@ ul{
 }
 
 .subBannerPortfolio{
-    height: 100vh;
+    height: fit-content;
 
     background-color: var(--backgroundColor);
     padding: 20vh;

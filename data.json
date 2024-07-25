@@ -1,6 +1,6 @@
 {
     "general": {
-        "aboutText": "Lernen Sie Luca und Jakob kennen, ein dynamisches Duo professioneller Programmierer, die eine Leidenschaft für die Entwicklung effizienter, schneller und intuitiver Softwarelösungen teilen. Ihre gemeinsame Reise begann mit der Vision, innovative digitale Erlebnisse zu schaffen, die das Leben der Nutzer verbessern",
+        "aboutText": "Wir sind Luca und Jakob, zwei engagierte Studenten und passionierte Programmierer. Lassen Sie uns Ihre Vision in die digitale Realität umsetzen und Ihr Unternehmen auf das nächste Level bringen.<br><br>Kontaktieren Sie uns und entdecken Sie, wie wir Ihre Ideen in eine erfolgreiche Web-Präsenz verwandeln können.",
         "aboutFoto": "Luca_und_Jakob.jpg",
         "logo": "Schirmer&Rinke_blackBackground.png",
         "title": "Schirmer & Rinke Software",
@@ -25,16 +25,21 @@
             "foto": "github.png"
         },
         "2": {
+            "title": "Metallverarbeitung Menzel",  
+            "text": "Unser erster Kunde, die Metallverarbeitung Menzel, benötigte eine Website, um ihre Dienstleistungen und Produkte zu präsentieren. Wir haben eine Website entwickelt, die es dem Unternehmen ermöglicht, seine Produkte und Dienstleistungen effektiv zu präsentieren und potenzielle Kunden zu erreichen.",
+            "foto": "MenzelIMG.png"
+        },
+        "3": {
             "title": "Schul-Website des St. Josef Gymnasiums Dingelstädt",
             "text": "Wir haben die digitale Transformation unserer Schule unterstützt, indem wir eine umfassende Schulwebsite mit einem benutzerfreundlichen CMS-System entwickelt haben. Dieses System ermöglicht es Lehrern, mühelos Nachrichtenbeiträge zu erstellen, die Einblicke in das tägliche Leben an unserer Schule geben. Während dieses Projekts haben wir wertvolle Erfahrungen in der Zusammenarbeit mit Kunden gesammelt, das Projekt an ihre spezifischen Anforderungen angepasst und durch mehrere Feedback-Umfragen die Funktionalität der Website optimiert.",
             "foto": "Schulwebsite St.Josef Gymnasium.png"
         },
-        "3": {
+        "4": {
             "title": "Ein virtueller Schulrundgang",
             "text": "Angesichts der Herausforderungen durch die Covid-19-Pandemie benötigte unsere ehemalige Schule eine innovative Lösung, um ihren jährlichen Tag der offenen Tür online zu veranstalten. In Zusammenarbeit mit einer engagierten Gruppe von Freunden haben wir ein Projekt gestartet, um eine Website zu erstellen, die einen virtuellen Rundgang durch die Schule bietet und dabei jedes Fachgebiet und verschiedene andere Aspekte der Schulumgebung zeigt. Diese erste Version wurde 2021 realisiert, und ein Jahr später wurde die Website durch eine Verbesserung des Gesamtdesigns neu gestaltet. Bis 2023 haben wir diese virtuelle Tour erfolgreich in die offizielle Website der Schule integriert. Mein Hauptaugenmerk lag dabei auf der Frontend-Entwicklung und dem Design, um sicherzustellen, dass das Online-Erlebnis das Angebot und die Atmosphäre der Schule effektiv repräsentiert.",
             "foto": "schulrundgang.png"
         },
-        "4": {
+        "5": {
          "title": "Live Game Library",
          "text": "Wir haben ein Flutter-Framework entwickelt, das die Entwicklung von Echtzeit-Multiplayer-Spielen vereinfacht. Diese Bibliothek erleichtert den Prozess der Erstellung von fesselnden und interaktiven Multiplayer-Erlebnissen. Befolgen Sie die folgenden Schritte, um schnell loszulegen.",
          "foto": "live_game_lib.jpg"
@@ -42,13 +47,13 @@
     },
     "services": {
         "0": {
-            "title": "Erstellen Sie Ihre Traum-Website",
-            "text": "Wo Innovation auf Ästhetik trifft! Steigern Sie Ihre Online-Präsenz mit einer Website, die modernste Technologie und fesselndes Design nahtlos verbindet. Von interaktiven Modulen bis hin zur innovativen Beratung gestaltet unser Service eine digitale Reise. Willkommen in einer neuen Ära der Online-Erlebnisse - erhalten Sie noch heute Ihre Traum-Website und definieren Sie Ihren digitalen Fußabdruck neu!",
+            "title": "Wir erstellen Ihre Traum-Website",
+            "text": "Wir entwickeln und designen Ihre App, um Ihr Unternehmen auf das nächste Level der Digitalisierung zu bringen. Zudem unterstützen wir Sie in jedem Schritt und helfen Ihnen dabei, Ihre Idee in eine beeindruckende Softwarelösung zu verwandeln.",
             "foto": "uups4o8kqyrqawda08us.png"
         },
         "1": {
-            "title": "Erstellen Sie Ihre Traum-App",
-            "text": "Steigern Sie Ihre Marke mit einer maßgeschneiderten mobilen Anwendung, die modernste Technologie und atemberaubendes Design nahtlos verbindet. Tauchen Sie die Benutzer in eine Welt nahtloser Funktionalität, ansprechender Benutzbarkeit und personalisierter Erlebnisse ein. Von interaktiven Schnittstellen bis hin zu benutzerfreundlicher Navigation gestaltet unser Service eine digitale Reise, die herausragt. Begrüßen Sie eine neue Ära mobiler Erlebnisse und definieren Sie die Art und Weise, wie Benutzer mit Ihrer Marke interagieren, neu!",
+            "title": "Wir erstellen Ihre App-Idee",
+            "text": "Mit unserer Hilfe erhalten Sie eine erstklassige Online-Präsenz. Wir begleiten Sie bei jedem Schritt, von der Idee bis zum Hosting. Unsere Softwarelösungen beinhalten ein Content-Management-System (CMS), das Ihnen ermöglicht, Ihre Webpräsenz jederzeit auf den neuesten Stand zu bringen.",
             "foto": "gevglzawwqhjdtc4sf3p.png"
         }
     },
