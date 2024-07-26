@@ -23,11 +23,12 @@
                 <li class="ListItem">
                     <a href="#">Home</a>     
                 </li>
-                <li class="ListItem">
-                    <a href="#Portfolio">Portfolio</a>
-                </li>
+               
                 <li class="ListItem">
                     <a href="#Services">Dienstleistungen</a>
+                </li>
+                <li class="ListItem">
+                    <a href="#Portfolio">Portfolio</a>
                 </li>
                 <li class="ListItem">
                     <a href="#Contact">Kontakt</a>
@@ -69,25 +70,41 @@
     </header>
     <main class="indexMain">
         <article class="articleAbout" id="articleAbout">
-            <div class="aboutName fadeIn">
-                {aboutName}
-            </div>
             <div class="aboutTextWrapper">
-                <div class="aboutText fadeIn">
+                <div class="mainWrapper">
+                    <img src="img/Schirmer&Rinke.png" class="aboutImg fadeIn">
+
+
+                    <div class="aboutName fadeIn">
+                        Software für Unternehmen und Seblstständige
+                    </div>
+    
+                </div>
+           
+            </div>
+
+
+        </article>
+        <article class="articleClients" id="Clients">
+  
+            <div class="aboutTextWrapper">
+                <h1 class="serviceHeadline">
+                    Über Uns
+                </h1>
+    
+                <div class="aboutText fadeIn serviceText">
                     {aboutText}
                 </div> 
-            </div>     
-        </article>
+            </div>   
+        </article>   
+
+        <article class="articleServices" id="Services">
+
+        </article>     
         <article class="articlePortfolio" id="Portfolio">
             <!-- dynamic -->
 
         </article>   
-        <article class="articleServices" id="Services">
-
-        </article>     
-        <article class="articleClients" id="Clients">
-
-        </article>     
     </main>
     <footer class="articleContact" id="Contact">
         
