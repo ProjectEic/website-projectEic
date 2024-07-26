@@ -30,7 +30,10 @@
 body{
     overflow-x: hidden;
 }
-
+h1 {
+    text-align: center;
+    font-size: 2rem
+}
 /* toggle classes */
 
 .toggleFixed{
@@ -169,18 +172,29 @@ ul{
     align-content: center;
 }
 
+.aboutImg {
+    width: 25vw;
+    padding-bottom: 10%;
+}
+
 .aboutTextWrapper{
     padding: 5%;
     width: 50vw;
     height: 60vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  
 }
 
 .aboutText{
     padding: 2.5%;
     border-radius: 15px;
     line-height: 2;
+    /*
     color: var(--fontColor);
     background-color: var(--aboutTextBackground);
+    */
     font-size: 1.5rem;
 }
 
@@ -193,8 +207,6 @@ ul{
    grid-template-rows: auto;
 
    justify-content: space-around;
-
-   background-color: var(--secondaryColor);    
 
    column-gap: 5%;
    padding: 10vh 5vw 10vh 5vw;
@@ -322,6 +334,18 @@ ul{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+
+
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: auto;
+ 
+    justify-content: space-around;
+ 
+    background-color: var(--secondaryColor);  
+    color: #fff;  
+ 
+    column-gap: 5%;
+    padding: 10vh 5vw 10vh 5vw;
 }
 
 .client{
@@ -440,9 +464,7 @@ ul{
         font-size: 3rem;
     }
 
-    .aboutTextWrapper{
-        padding-top: 0.25%;
-    }
+  
 
     .aboutText{
         font-size: 1.15rem;
@@ -453,7 +475,6 @@ ul{
 @media screen and (max-width: 1100px){
     .aboutName{
         justify-content: start;
-        padding-left: 5%;
         width: 95%;
         font-size: 44px;
     }
@@ -561,6 +582,20 @@ ul{
         padding: 0;
     }
 
+    .mainWrapper {
+        height: 90vh;
+        display: grid;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        
+    }
+
+    .aboutImg {
+        align-content: start;
+        padding-top: 5%;
+    }
+
     .aboutText{
         border-radius: 0;
         font-size: 16px;
@@ -636,8 +671,13 @@ ul{
     }
 
     .aboutTextWrapper{
-        margin-top: 70vh;
-        height: fit-content;
+ 
+        height: 100%;
+    }
+
+    .aboutImg {
+        margin: auto;
+        width: 50%;
     }
 
     .contactContainer{
