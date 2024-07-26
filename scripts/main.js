@@ -9,7 +9,7 @@ async function getData() {
 
         // addMetaDescription(data.general.metaDescription);
         document.title = data.general.title;
-        document.querySelector(".aboutName").innerHTML = data.general.title;
+        //document.querySelector(".aboutName").innerHTML = data.general.title;
         document.querySelector(".aboutText").innerHTML = data.general.aboutText;
         document.querySelectorAll(".LogoContainer").forEach((e) => {
             e.firstElementChild.src = "img/" + data.general.logo;
