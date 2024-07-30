@@ -584,7 +584,7 @@ ul{
     }
 
     .mainWrapper {
-        height: 90vh;
+        height: 92vh;
         display: grid;
         flex-direction: column;
         justify-content: space-between;
