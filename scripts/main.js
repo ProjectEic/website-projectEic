@@ -328,10 +328,10 @@ function addImpressumAndDatenSchutz(){
     // html prefab
     const htmlString = 
     `
-        <a class="impressum" href="#">
+        <a class="impressum" href="info/impressum.html">
             Impressum
         </a>
-        <a class="datenschutz" href="#">
+        <a class="datenschutz" href="info/datenschutz.html">
             Datenschutz
         </a>
     `;
