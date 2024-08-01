@@ -305,10 +305,10 @@ function addMailNumberContacts(email, number){
     const htmlString = 
     `
         <a class="contactEmail" href="mailto: ${email}">
-            Email:<br> ${email}
+            E-Mail:<br> ${email}
         </a>
         <a class="contactPhone" href="tel: ${number}">
-            Telefon:<br> ${number}
+            Tel:<br> ${number}
         </a>
     `;
 
