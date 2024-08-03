@@ -1,6 +1,6 @@
 // Aquire data
 async function getData() {
-    // try {
+    try {
         // Url Json file
         let dataJsonUrl = "./data.json";
 
@@ -66,9 +66,9 @@ async function getData() {
 
         const faders = document.querySelectorAll(".fadeIn");
         startObserver(faders);
-    // } catch (error) {
-    //     console.error("Error fetching and populating data:", error);
-    // }
+    } catch (error) {
+        console.error("Error fetching and populating data:", error);
+    }
 }
 
 getData();
